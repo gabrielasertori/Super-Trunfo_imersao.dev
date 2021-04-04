@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Imersão Dev - Aula 08</title>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt="">
+      <h1 class="page-title">Super Trunfo<br>Game of Thrones</h1>
+          <div class="infos">
+              <div id="contagem"></div>
+              <div id="quantidade-cartas"></div>
+          </div>
+      </div>
+      <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+      <form id="form">
+          <div class="wrapper">
+              <div id="cartas">
+                  <div>
+                      <div id="carta-jogador" class="carta"><h3></h3></div>
+                  </div>
+                  <div id="centrao">
+                    <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled=false>Jogar</button>
+                    <div id="resultado"></div>
+                </div>
+                  <div>
+                      <div id="carta-maquina" class="carta"></div>
+                  </div>
+              </div>
+           </div>
+          <div class="botoes-fim">
+             <button type="button" id="btnNovaPartida" onclick="novaPartida()" disabled=false>Nova partida</button>
+        </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>
